@@ -1,6 +1,3 @@
-# Chatbot-para-Flexbeel
-Proyecto Chatbot para la empresa Flexbeel destinado a ayudar con el proceso de facturacion.
-
 ## Configuración inicial:
 Este repositorio actualmente contiene los archivos listos.
 
@@ -37,4 +34,3 @@ $ (venv) python chat.py
 ```
 Posteriormente para ejecutarlo en el entorno web, tiene que ejecutra el archivo app.py, este le otorgara una direccion de hostlocal. al abrirla en un explorador deberia poder visualizar el chatbot.
 ```
-

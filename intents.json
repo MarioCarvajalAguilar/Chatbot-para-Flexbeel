@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+         "Hola",
+         "Ey",
+         "Como estas",
+         "¿Hay alguien ahi?",
+         "hola",
+         "Buen dia"
+      ],
+      "responses": [
+         "Hola!, Mi nombre es Sam, soy la asistente virtual de Flexbeel. ¿En que puedo ayudarte?",
+         "Hola, gracias por visitar mi nombre es Sam",
+         "Hola, ¿que puedo hacer por ti?",
+         "Hola, ¿como puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Adios", "Hasta luego", "Nos vemos"],
+      "responses": [
+         "Hasta luego, gracias por visitarnos",
+         "Que tenga un lindo dia",
+         "¡Adios! Vuelve pronto"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Gracias", "Gracias por la ayuda", "Eso es util", "¡Muchas gracias!"],
+      "responses": ["Encantada de ayudar!", "En cualquier momento!", "De nada, recuerde que con Flexbeel las soluciones son nuestra prioridad"]
+    },
+    {
+      "tag": "facture",
+      "patterns": [
+         "Necesito ayuda con la facturacion de una nota de venta",
+         "Necesito ayuda con la facturacion",
+         "No puedo hacer una factura",
+         "Al intentar facturar sale error"
+      ],
+      "responses": [
+         "Claro!. Porfavor intenta una de las siguientes soluciones antes de proseguir con el soporte: 1.- Verifica que el RFC sea igual al de la nota de venta 2.- Verifica que la clave CFDI coincida con un producto dado de alta en el SAT  ... ¿Te ha servido la informacion?",
+         "Claro!. Porfavor intenta una de las siguientes soluciones antes de proseguir con el soporte: 1.- Verifica que la razon social sea valida ante el SAT 2.- Verifica que tu conexion a internet sea estable. ¿Te ha servido la informacion?"
+      ]
+    },
+    {
+        "tag": "PositiveResults",
+        "patterns": [
+           "Si",
+           "Si, gracias",
+           "Claro",
+           "si"
+        ],
+        "responses": [
+           "Perfecto, si se le ofrece algo mas estoy aqui para ayudar",
+           "De acuerdo, cualquier duda hagamela saber."
+        ]
+    },
+    {
+        "tag": "NegativeResults",
+        "patterns": [
+           "No",
+           "no",
+           "no funciono",
+           "No funciono"
+        ],
+        "responses": [
+           "De acuerdo, porfavor ingrese sus datos para ponernos en contacto con usted o bien comuniquese con nosotros al numero de soporte: ##########",
+           "De acuerdo, Porfavor comuniquese con nosotros al numero:  #########"
+        ]
+    }
+  ]
+}
